@@ -1,0 +1,18 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files (download separately from Kaggle)
+data/raw/*.csv
+data/cleaned/*.csv
+
+# Temporary and sensitive files
+.env
+*.log
+.DS_Store
+Thumbs.db
